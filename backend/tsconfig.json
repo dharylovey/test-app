@@ -10,6 +10,8 @@
     "baseUrl": "./" /* Specify the base directory to resolve non-relative module names. */,
     "paths": {
       "@/*": ["./src/*"],
+      "@constant": ["src/constant"],
+      "@routes/*": ["src/routes/*"],
       "@controller": ["src/controller"],
       "@services/*": ["src/services/*"],
       "@utils/*": ["src/utils/*"]
